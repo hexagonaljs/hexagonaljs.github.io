@@ -1,3 +1,7 @@
 footer.page-footer {
   margin-top: 5em;
 }
+
+aside {
+  text-align: right;
+}

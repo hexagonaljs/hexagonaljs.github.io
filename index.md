@@ -119,3 +119,5 @@ class App
 
 new App()
 {% endhighlight %}
+
+<aside>Source: <a href="http://blog.arkency.com/2013/02/introducing-hexagonal-dot-js/">Introducing hexagonal.js</a></aside>
