@@ -14,7 +14,7 @@ In short hexagonal.js is JavaScript's implementation of Alistair Cockburn's [Hex
 5. Client-side and server-side are separated.
 6. Both layers implements MVC.
 
-In this post I want to focus on client-side layer, because it is most interesting part. All snippets in this post are copied from hexagonal.js' [hello-world](https://github.com/hexagonaljs/hello-world) project.
+I want to focus on client-side layer, because it is most interesting part. All snippets in this post are copied from hexagonal.js' [hello-world](https://github.com/hexagonaljs/hello-world) project.
 
 # Structure
 
