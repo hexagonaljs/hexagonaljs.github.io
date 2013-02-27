@@ -51,6 +51,7 @@ nav a:hover {
 
 main {
   float: left;
+  width: 100%;
 }
 
 main a {
@@ -113,5 +114,6 @@ aside {
 
 footer {
   float: left;
+  width: 100%;
   margin-top: 3em;
 }
