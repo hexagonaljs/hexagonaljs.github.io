@@ -4,9 +4,10 @@
     <title>hexagonal.js - {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8" />
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Economica:400' rel='stylesheet' type='text/css'>
+    <link href="/assets/css/reset.css" rel="stylesheet" type="text/css" />
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/style-responsive.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
@@ -23,45 +24,46 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="navbar">
-        <nav class="navbar-inner">
-          <ul class="nav">
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/docs.html">Docs</a>
-            </li>
-            <li>
-              <a href="http://www.youtube.com/user/hexagonaljs">Screencasts</a>
-            </li>
-            <li>
-              <a href="https://github.com/hexagonaljs">Code samples</a>
-            </li>
-            <li>
-              <a href="https://twitter.com/hexagonaljs">Twitter</a>
-            </li>
-            <li>
-              <a href="https://groups.google.com/forum/?fromgroups#!forum/hexagonaljs">Forum</a>
-            </li>
-            <li>
-              <a href="irc://chat.freenode.net/hexagonal-js">IRC: #hexagonal-js@freenode.net</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
 
-      <header class="page-header">
+    <header>
+      <hgroup>
         <h1>hexagonal.js</h1>
-        <p class="lead">Single Page Apps clean architecture</p>
-      </header>
+        <p>Single Page Apps clean architecture</p>
+      </hgroup>
+    </header>
 
-      {{content}}
+    <nav>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/docs.html">Docs</a>
+        </li>
+        <li>
+          <a href="http://www.youtube.com/user/hexagonaljs">Screencasts</a>
+        </li>
+        <li>
+          <a href="https://github.com/hexagonaljs">Code samples</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/hexagonaljs">Twitter</a>
+        </li>
+        <li>
+          <a href="https://groups.google.com/forum/?fromgroups#!forum/hexagonaljs">Forum</a>
+        </li>
+        <li>
+          <a href="irc://chat.freenode.net/hexagonal-js">IRC: #hexagonal-js@freenode.net</a>
+        </li>
+      </ul>
+    </nav>
 
-      <footer class="page-footer">
-        Project started in <a href="http://drug.org.pl">DRUG</a> community.
-      </footer>
-    </div>
+    <main>
+    {{content}}
+    </main>
+
+    <footer>
+      Project started in <a href="http://drug.org.pl">DRUG</a> community.
+    </footer>
   </body>
 </html>

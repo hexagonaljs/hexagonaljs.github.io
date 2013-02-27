@@ -1,7 +1,117 @@
-footer.page-footer {
-  margin-top: 5em;
+html, body {
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.2em;
+}
+
+h1, h2, nav {
+  font-family: 'Economica', sans-serif;
+}
+
+body {
+  padding: 0 2em;
+}
+
+header {
+  float: left;
+  padding: 1em;
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+header h1 {
+  font-size: 3em;
+  line-height: 1em;
+  padding: 0.2em 0;
+}
+
+nav {
+  float: right;
+  display: inline-block;
+  width: 400px;
+  background: #6198a8;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1em;
+  color: #d1f2da;
+  text-decoration: none;
+  padding: 1em;
+}
+
+nav a:hover {
+  background-color: #71a8b8;
+}
+
+main {
+  float: left;
+}
+
+main a {
+  color: inherit;
+}
+
+main a:hover {
+  background: #d1f2da;
+}
+
+main h1, h2 {
+  color: #03607a;
+  background: #dcffe6;
+}
+
+main h1 {
+  font-size: 2em;
+  line-height: 1em;
+  margin-top: 1em;
+}
+
+main h2 {
+  font-size: 1.5em;
+  line-height: 1em;
+  margin-top: 1em;
+}
+
+main ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+main ol ol {
+  list-style-type: lower-alpha;
+  margin-left: 1em;
+}
+
+main pre {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  background: #e6f2d1;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8em;
+  white-space: pre-wrap;
+}
+
+main ol p,
+main ol ol {
+  margin-top: 0;
+}
+
+main p,
+main ol {
+  margin-top: 1em;
 }
 
 aside {
   text-align: right;
+}
+
+footer {
+  float: left;
+  margin-top: 3em;
 }
